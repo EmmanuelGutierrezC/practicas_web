@@ -334,6 +334,13 @@ li{
     .footer{
         text-align: center;
     }
+
+    .redes__link:hover .icon__redes{
+        font-size: 4rem;
+      
+    }
+
+
 }
 
 @media screen and (max-width:500px) {
@@ -360,11 +367,10 @@ li{
     }
     .article{
         grid-template-columns: 1fr;
+        grid-template-rows: 150px auto;
         text-align: center;
     }
-    .article img{
-        display: none;
-    }
+
 
     .article a{
         margin: auto;
