@@ -365,6 +365,14 @@ li{
         flex-direction: column;
         gap: 25px;
     }
+
+    .destacado{
+        grid-template-rows:  180px auto;
+    }
+
+    .destacado__content{
+        order:2;
+    }
     .article{
         grid-template-columns: 1fr;
         grid-template-rows: 150px auto;
