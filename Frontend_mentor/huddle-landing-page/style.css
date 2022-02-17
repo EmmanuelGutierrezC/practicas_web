@@ -324,6 +324,7 @@ li{
     .card__figure{
         max-width: 200px;
         margin: 20px auto;
+        order: -1;
     }
 
     .join__card{
