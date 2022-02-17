@@ -154,7 +154,7 @@ li{
 .card__text p{
     font-size: 1.4rem;
     font-family: var(--font-body);
-    color: var(--dark-cyan);
+    color: #8f9295;
 }
 
 .card__figure{
